@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         dockerImage = '' // This can be assigned dynamically in the pipeline
-        registry = 'bridgetching9528/abcapp'
+        registry = 'ngwaabanjong/abcapp'
         registryCredential = 'Dockerhub-login' // Ensure this matches your Jenkins credentials ID
     }
 
